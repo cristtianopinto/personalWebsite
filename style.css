@@ -1,4 +1,17 @@
-
-.sectionCV{    
-    margin-top:70px;
+html{
+    scroll-behavior:smooth;
+}
+section{    
+    height: 100vh;
+    margin-top: 150px;
+} 
+nav{
+    
+    height: 150px;    
+}
+footer{
+    background-color: azure;
+    height: 50px;
+    text-align: center;
+    
 }
