@@ -1,13 +1,86 @@
 html{
     scroll-behavior:smooth;
 }
-section{    
-    height: 100vh;
-    margin-top: 150px;
-} 
+ 
 nav{
-    
-    height: 150px;    
+}
+.section > p{
+    margin: 0%;
+}
+@media (max-width: 991px) {
+    .row{
+        flex-direction: column-reverse;
+    }
+    .text-profile{
+        margin-top:15px;
+    }
+}
+.container{
+    margin-top:50px;
+}
+.text-profile{
+    padding-top:0px;
+}
+.text-profile > .section{
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color:rgba(138, 138, 124, 0.26);
+}
+.progress-bar{
+    border-radius: 5px;
+    padding: 0%;
+    color:antiquewhite;
+    background-color: cornflowerblue;
+}
+.card-profile{
+    border-radius: 5px;
+    background-color: rgba(37, 53, 48, 0.541);
+    color: antiquewhite;
+    padding-top: 30px;
+    padding-bottom:30px;
+    text-align: center;    
+}
+.contenu-profile-info{
+    background-color: rgba(136, 135, 133, 0.445);
+    margin-top:-5px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 15px;
+    text-align: left;
+    font-size: 14px;
+}
+.contenu-profile-info > p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.contenu-education{
+    background-color: rgba(211, 209, 206, 0.445);
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 15px;
+    padding-right:15px;
+    text-align: left;
+    font-size: 14px;
+}
+.contenu-education > p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.contenu-education >h5{
+    font-size: 16px;
+}
+.contenu-profile-langue{
+    background-color: rgba(136, 128, 118, 0.445);
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 15px;
+    text-align: left;
+    font-size: 14px;
+}
+.card-profile > h5{
+    margin-top: 30px;
+    text-align: center;
 }
 footer{
     background-color: azure;
